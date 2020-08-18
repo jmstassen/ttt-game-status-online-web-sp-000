@@ -1,5 +1,6 @@
 # Helper Method
 def position_taken? (board, index)
+  index2 = index.to_i
   if board[index] == "" || board[index] == " " || board[index] == nil
     return false
   else
