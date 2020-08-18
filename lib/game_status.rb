@@ -1,6 +1,6 @@
 # Helper Method
-def position_taken?(board,position)
-  board[position] == "X" || board[position] == "O"
+def position_taken?(board, index)
+  board[index] == "X" || board[index] == "O"
 end
 
 WIN_COMBINATIONS = [
