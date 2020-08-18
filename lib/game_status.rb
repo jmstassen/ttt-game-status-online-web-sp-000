@@ -33,6 +33,6 @@ def won?(board)
 end
 
 def full?(board)
-  board.any? {position_taken?(board) = false}
+  board.any? {position_taken?(board) == false}
   end
 end
