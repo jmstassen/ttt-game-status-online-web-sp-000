@@ -34,5 +34,5 @@ end
 
 def full?(board)
   board.all? {position_taken?}
-    
+
   end
