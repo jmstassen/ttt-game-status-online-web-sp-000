@@ -1,6 +1,7 @@
 # Helper Method
 def position_taken?(board, index)
-  board[index] == "X" || board[index] == "O"
+  index_int = index.to_i
+  board[index_int] == "X" || board[index_int] == "O"
 end
 
 WIN_COMBINATIONS = [
