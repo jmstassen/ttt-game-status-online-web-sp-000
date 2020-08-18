@@ -55,11 +55,6 @@ def over?(board)
 end
 
 def winner(board)
-  win_combination = won?(board)
-  token = win_combination[0]
-  if token == "X"
-    return "X"
-  elsif token == "O"
-    return "O"
-  end
+  if won?(board) != nil
+    return position_1
 end
