@@ -31,3 +31,8 @@ def won?(board)
   end
   return false
 end
+
+def full?(board)
+  board.all? {position_taken?}
+    
+  end
