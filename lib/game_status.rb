@@ -1,4 +1,3 @@
-# Helper Method
 def position_taken?(board, index)
   index_int = index.to_i
   board[index_int] == "X" || board[index_int] == "O"
@@ -15,7 +14,6 @@ WIN_COMBINATIONS = [
   [2, 4, 6]
 ]
 
-#for each win_combination in WIN_COMBINATIONS
 def won?(board)
   WIN_COMBINATIONS.each do |win_combination|
     win_index_1 = win_combination[0]
